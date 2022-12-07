@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e435685ccf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1>Social Media Post App</h1>
+    <div class="container flex">
+        <div class="left">
+            <form id="form">
+                <label for="textarea">Write Your post</label>
+                <br><br>
+                <textarea name="" id="inp" cols="30" rows="10"></textarea>
+                <br><br>
+                <div id="error"></div>
+                <button type="submit" id="btn">Post</button>
+            </form>
+        </div>
+        <div class="right">
+            <h2>Your Post</h2>
+            <div id="post">
+                <div class="post flex">
+                    <p>Post</p>
+                    <span class="icons flex ">
+                        <i onClick="editPost(this)" class="fa-regular fa-pen-to-square"></i>
+                        <i onClick="deletePost(this)" class="fa-solid fa-trash"></i>
+                </div>
+                </span>
+                <div class="post flex">
+                    <p>Post</p>
+                    <span class="icons flex ">
+                        <i onClick="editPost(this)" class="fa-regular fa-pen-to-square"></i>
+                        <i onClick="deletePost(this)" class="fa-solid fa-trash"></i>
+                </div>
+                </span>
+
+            </div>
+            <!-- <div class="post flex">
+            </div> -->
+        </div>
+
+
+
+
+    </div>
+    <div class="container m-t">
+        <h2>About This app</h2>
+        <p>Here you can add your post, edit your post and delete your post</p>
+
+        <h2>Advantage</h2>
+        <p>After create this you can understand how the CRUD(create , read , update , delete) operation work</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

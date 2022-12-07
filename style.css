@@ -1,0 +1,57 @@
+.flex{
+    display: flex;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+
+    border: 5px solid rgb(226, 222, 222);
+    padding: 10px 50px;
+    width: 55%;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+.post{
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+i{
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 2px 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 233, 233);
+}
+i:hover{
+    background-color: rgb(248, 244, 244);
+}
+h1{
+    text-align: center;
+}
+#btn{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    padding: 10px 30px;
+}
+#btn:hover{
+    background-color: rgb(234, 234, 234);
+}
+#error{
+    color: red;
+}
+.right{
+    height: 300px;
+    overflow: auto;
+}
+.m-t{
+    text-align: center;
+    margin-top: 50px;
+}
